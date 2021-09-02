@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <ul class="menu" style="background-color:black;">
+        <li class="links"><a href="#home">Home</a></li>
+        <li class="links"><a href="#grid">Grid View</a></li>
+        <li class="links"><a href="#slide">Slide View</a></li>
+    </ul><br><br>
+    <section id="home">
+        <h2 id="s1-heading">Photo Gallery</h2>
+        <img id="s1-img" src="profile%20gif.gif">
+    </section><br>
+
+    <section id="grid">
+        <h2 id="s2-heading">Grid View</h2>
+        <div><img id="grid-img1" src="daffodils.jfif"><br>
+            <p>Daffodils</p>
+            &nbsp;<img id="grid-img2" src="lily.jfif"><br>
+            <p>Lily</p>
+        </div>
+    </section><br>
+
+    <section id="slide">
+        <h2>Slide View</h2><br>
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img src="bleeding%20heart.jfif" class="img-responsive">
+                        <div class="carousel-content">
+                            <p>Bleeding Heart</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="dahlia.jpg" class="img-responsive">
+                        <div class="carousel-content">
+                            <p>Dahlia</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </section>
+</body>
+
+</html>
